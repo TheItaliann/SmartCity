@@ -1,0 +1,7 @@
+Flask
+picamera2
+opencv-python
+numpy
+RPi.GPIO
+simple-pid
+python-snap7
