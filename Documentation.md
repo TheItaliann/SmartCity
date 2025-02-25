@@ -1,17 +1,3 @@
----
-
-# SmartCity Repository Documentation
-
-The SmartCity project is a multi-device solution for smart city applications. In this repository, different branches are used to deploy code on distinct devices:
-
-- **CityBot:** Code for a mobile robot (CityBot) running on a Raspberry Pi 4B.
-- **Top-Camera:** Code for a dedicated camera system running on a Raspberry Pi 4B.
-- **DigitalMap:** Code for a digital map interface deployed on an Ubuntu Linux server.
-
-Each branch contains the necessary source code, configurations, and dependency lists tailored to its device.
-
----
-
 ## Table of Contents
 
 1. [Overview](#overview)
