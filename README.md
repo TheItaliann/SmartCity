@@ -1,40 +1,41 @@
-# Smart City Projekt - City Bot
+# Smart City Project - City Bot
 
-## Projektbeschreibung
-Dieses Projekt ist eine Simulation einer Smart City mit einem autonomen Fahrzeug (City Bot), das mithilfe eines Raspberry Pi 4B gesteuert wird. Das Fahrzeug verfügt über eine Kamera zur Linienerkennung und navigiert durch eine Stadt, die aktuell eine Größe von 4x4 hat, später jedoch auf 8x8 erweitert werden soll. Zusätzlich gibt es ein Ampelsystem sowie eine digitale Karte zur Positionssteuerung des Fahrzeugs.
+## Project Description
+This project is a simulation of a Smart City featuring an autonomous vehicle (City Bot) controlled by a Raspberry Pi 4B. The vehicle is equipped with a camera for line detection and navigates through a city currently sized 4x4, with plans to expand to 8x8 in the future. Additionally, the system includes traffic lights and a digital map for vehicle positioning control.
 
-## Hauptkomponenten
-- **City Bot**: Ein zweirädriges Fahrzeug mit einer Kamera zur Linienerkennung.
-- **Raspberry Pi 4B**: Steuereinheit für das Fahrzeug.
-- **Kamera**: Erfasst die Umgebung und unterstützt die Linienverfolgung.
-- **Kameraüberwachung**: Auf jedem 4x4-Feld befindet sich eine Kamera, die Bilder an einen zentralen Server streamt.
-- **KI-Erkennung**: Eine YOLOv11/Ultralytics-KI erkennt das Fahrzeug auf den gestreamten Bildern mit einem eigens trainierten Modell.
-- **Digitale Karte**: Ermöglicht die Navigation des Fahrzeugs zu einer bestimmten Position.
-- **Ampelsystem**: Die Ampeln senden ihren Status (Grün/Rot), sodass das Fahrzeug entsprechend reagiert.
-- **Live-Streaming**: Die Kamerastreams können über einen Webbrowser unter der IP-Adresse und Port 5000 betrachtet werden.
+## Main Components
+- **City Bot**: A two-wheeled vehicle with a camera for line detection.
+- **Raspberry Pi 4B**: The control unit for the vehicle.
+- **Camera**: Captures the environment and aids in line tracking.
+- **Camera Surveillance**: Each 4x4 field contains a camera that streams images to a central server.
+- **AI Recognition**: A YOLOv11/Ultralytics AI detects the vehicle in streamed images using a custom-trained model.
+- **Digital Map**: Allows the vehicle to navigate to a specified position.
+- **Traffic Light System**: Traffic lights transmit their status (Green/Red), enabling the vehicle to respond accordingly.
+- **Live Streaming**: Camera streams can be viewed in a web browser via the IP address and port 5000.
 
-## Geplante Erweiterungen
-- Erweiterung der Stadtgröße auf 8x8.
-- Verbesserte Objekterkennung und KI-Modelle zur präziseren Fahrzeugerkennung.
-- Ausbau des Ampelsystems für eine realistischere Verkehrssteuerung.
+## Planned Enhancements
+- Expansion of the city size to 8x8.
+- Improved object recognition and AI models for more accurate vehicle detection.
+- Extension of the traffic light system for more realistic traffic control.
 
-## Installation & Nutzung
-1. Raspberry Pi 4B mit dem City Bot verbinden und Software installieren.
-2. Kameras an den 4x4-Feldern platzieren und mit dem Server verbinden.
-3. KI-Modell trainieren und auf den Server hochladen.
-4. Ampelsystem mit den jeweiligen Steuerungseinheiten verbinden.
-5. Digitale Karte nutzen, um das Fahrzeug zu steuern.
-6. Live-Streams über den Webbrowser unter `<IP-Adresse>:5000` abrufen.
+## Installation & Usage
+1. Connect the Raspberry Pi 4B to the City Bot and install the software.
+2. Place cameras on the 4x4 fields and connect them to the server.
+3. Train the AI model and upload it to the server.
+4. Connect the traffic light system to the respective control units.
+5. Use the digital map to control the vehicle.
+6. Access live streams via a web browser at `<IP-Address>:5000`.
 
-## Technologien & Werkzeuge
-- **Hardware**: Raspberry Pi 4B, Kamera, Motoren, Sensoren
+## Technologies & Tools
+- **Hardware**: Raspberry Pi 4B, Camera, Motors, Sensors
 - **Software**: Python, OpenCV, Flask, YOLOv11/Ultralytics
-- **Netzwerk**: IP-basierte Kommunikation, Streaming-Server
-- **KI-Training**: Eigene Datensätze für die Fahrzeugerkennung
+- **Networking**: IP-based communication, Streaming Server
+- **AI Training**: Custom datasets for vehicle detection
 
-## Autoren
+## Authors
 - [Denis Möller](https://github.com/NinjaV2Kn)
 - [Emanuele Alejandro Ustica](https://github.com/TheItaliann)
-## Lizenz
-Dieses Projekt ist Open-Source und steht unter der MIT-Lizenz.
+
+## License
+This project is open-source and licensed under the MIT License.
 
