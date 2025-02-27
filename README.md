@@ -33,7 +33,8 @@ Dieses Projekt ist eine Simulation einer Smart City mit einem autonomen Fahrzeug
 - **KI-Training**: Eigene Datensätze für die Fahrzeugerkennung
 
 ## Autoren
-
+- [Denis Möller](https://github.com/NinjaV2Kn)
+- [Emanuele Alejandro Ustica](https://github.com/TheItaliann)
 ## Lizenz
 Dieses Projekt ist Open-Source und steht unter der MIT-Lizenz.
 
